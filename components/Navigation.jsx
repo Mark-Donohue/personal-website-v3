@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { HiMenu } from "react-icons/hi";
 
 const Navigation = () => {
   return (
@@ -23,6 +24,9 @@ const Navigation = () => {
             <Link href="#">Resume</Link>
           </li>
         </ul>
+        <div className="md:hidden">
+          <HiMenu/>
+        </div>
       </div>
     </div>
   );
