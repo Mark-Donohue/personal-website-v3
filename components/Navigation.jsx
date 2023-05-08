@@ -14,6 +14,12 @@ const Navigation = () => {
             <Link href="#">About</Link>
           </li>
           <li className="ml-10 text-sm uppercase hover:border-b">
+            <Link href="#">Experience</Link>
+          </li>
+          <li className="ml-10 text-sm uppercase hover:border-b">
+            <Link href="#">Skills</Link>
+          </li>
+          <li className="ml-10 text-sm uppercase hover:border-b">
             <Link href="#">Resume</Link>
           </li>
         </ul>
