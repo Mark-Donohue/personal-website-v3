@@ -1,9 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { HiMenu } from "react-icons/hi";
 import { IoMenu } from "react-icons/io5";
-import { MdMenu } from "react-icons/md";
 
 const Navigation = () => {
   return (
