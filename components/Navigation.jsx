@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { IoMenu } from "react-icons/io5";
+import { IoMenu, IoClose } from "react-icons/io5";
 
 const Navigation = () => {
   return (
@@ -37,8 +37,20 @@ const Navigation = () => {
       </div>
       {/* Side Menu */}
       <div className="fixed left-0 top-0 w-full h-screen bg-black/50">
-        <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-[#FAF9F6] h-screen p-10 ease-in duration-200">
-
+        <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[75%] bg-[#FAF9F6] h-screen p-10 ease-in duration-200">
+          <div className="relative">
+            <div className="flex w-full items-center justify-between">
+              <Image
+                src="/../public/assets/MD_Logo.png"
+                alt="/"
+                width="50"
+                height="50"
+              />
+              <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer">
+                <IoClose size={20} color="#167bff" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
