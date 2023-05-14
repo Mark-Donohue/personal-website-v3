@@ -6,12 +6,14 @@ import { IoMenu } from "react-icons/io5";
 const Navigation = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
+      {/* Nav Bar */}
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-18">
         <Image
-          src="/../public/assets/MDLogo2.png"
+          src="/../public/assets/MD_Logo.png"
           alt="/"
-          width="65"
-          height="70"
+          width="60"
+          height="60"
+          style={{ width: "auto", height: "auto" }}
         />
         <div>
           <ul className="hidden md:flex">
@@ -29,8 +31,14 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-        <div className="md:hidden hover:b">
-          <IoMenu size={65} color="#167bff" />
+        <div className="md:hidden">
+          <IoMenu size={50} color="#167bff" />
+        </div>
+      </div>
+      {/* Side Menu */}
+      <div className="fixed left-0 top-0 w-full h-screen bg-black/50">
+        <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] bg-[#FAF9F6] h-screen p-10 ease-in duration-200">
+
         </div>
       </div>
     </div>
