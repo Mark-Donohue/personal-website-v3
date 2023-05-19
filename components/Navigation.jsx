@@ -37,7 +37,7 @@ const Navigation = () => {
       </div>
       {/* Side Menu */}
       <div className="fixed left-0 top-0 w-full h-screen bg-black/50">
-        <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[75%] bg-[#FAF9F6] h-screen p-10 ease-in duration-200">
+        <div className="fixed left-0 top-0 w-[70%] bg-[#FAF9F6] h-screen p-10 ease-in duration-200">
           <div className="relative">
             <div className="flex w-full items-center justify-between">
               <Image
