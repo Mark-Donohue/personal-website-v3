@@ -3,5 +3,5 @@ This is the repository for my current personal website. It's a SPA built with [N
 
 ### Running Locally
 To run the wesbite locally, execute the following commands:
-`npm install`
-`npm run dev`
+1. `npm install`
+2. `npm run dev`
