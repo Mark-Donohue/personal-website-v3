@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa";
 import { IoMenu, IoClose } from "react-icons/io5";
 
 const Navigation = () => {
@@ -53,22 +54,28 @@ const Navigation = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="py-6">
-              <Link href='/'>
+              <Link href="/">
                 <li className="py-2 text-md uppercase">About</li>
               </Link>
-              <Link href='/'>
+              <Link href="/">
                 <li className="py-2 text-md uppercase">Experience</li>
               </Link>
-              <Link href='/'>
+              <Link href="/">
                 <li className="py-2 text-md uppercase">Skills</li>
               </Link>
-              <Link href='/'>
+              <Link href="/">
                 <li className="py-2 text-md uppercase">Resume</li>
               </Link>
             </ul>
             <div className="pt-30">
-              <p className="uppercase tracking-widest text-[#167BFF]">Let&#39;s Connect</p>
-
+              <p className="uppercase tracking-widest text-[#167BFF]">
+                Let&#39;s Connect
+              </p>
+              <div>
+                <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer hover:scale-105">
+                  <FaLinkedin size={30} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
