@@ -37,8 +37,8 @@ const Navigation = () => {
       </div>
       {/* Side Menu */}
       <div className="fixed left-0 top-0 w-full h-screen bg-black/50">
-        <div className="fixed left-0 top-0 w-[70%] bg-[#FAF9F6] h-screen p-10 ease-in duration-200">
-          <div className="relative">
+        <div className="fixed left-0 top-0 w-[70%] bg-[#FAF9F6] h-screen p-6 ease-in duration-200">
+          <div>
             <div className="flex w-full items-center justify-between">
               <Image
                 src="/../public/assets/MD_Logo.png"
@@ -49,6 +49,25 @@ const Navigation = () => {
               <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer">
                 <IoClose size={20} color="#167bff" />
               </div>
+            </div>
+          </div>
+          <div className="py-4 flex flex-col">
+            <ul className="py-10 text-center">
+              <Link href='/'>
+                <li className="py-2 text-md uppercase">About</li>
+              </Link>
+              <Link href='/'>
+                <li className="py-2 text-md uppercase">Experience</li>
+              </Link>
+              <Link href='/'>
+                <li className="py-2 text-md uppercase">Skills</li>
+              </Link>
+              <Link href='/'>
+                <li className="py-2 text-md uppercase">Resume</li>
+              </Link>
+            </ul>
+            <div>
+              
             </div>
           </div>
         </div>
