@@ -47,7 +47,7 @@ const Navigation = () => {
                 width="50"
                 height="50"
               />
-              <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer">
+              <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer hover:bg-gray-200">
                 <IoClose size={20} color="#167BFF" />
               </div>
             </div>
@@ -55,16 +55,16 @@ const Navigation = () => {
           <div className="py-4 flex flex-col">
             <ul className="py-6">
               <Link href="/">
-                <li className="py-2 text-md uppercase">About</li>
+                <li className="py-2 text-lg uppercase">About</li>
               </Link>
               <Link href="/">
-                <li className="py-2 text-md uppercase">Experience</li>
+                <li className="py-2 text-lg uppercase">Experience</li>
               </Link>
               <Link href="/">
-                <li className="py-2 text-md uppercase">Skills</li>
+                <li className="py-2 text-lg uppercase">Skills</li>
               </Link>
               <Link href="/">
-                <li className="py-2 text-md uppercase">Resume</li>
+                <li className="py-2 text-lg uppercase">Resume</li>
               </Link>
             </ul>
             <div className="pt-30">
