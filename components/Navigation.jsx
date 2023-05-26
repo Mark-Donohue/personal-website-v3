@@ -38,7 +38,7 @@ const Navigation = () => {
       </div>
       {/* Side Menu */}
       <div className="fixed left-0 top-0 w-full h-screen bg-black/50">
-        <div className="fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[35%] h-screen bg-[#FAF9F6] p-6 ease-in duration-200">
+        <div className="fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[35%] h-screen bg-[#FAF9F6] p-6 ease-in duration-200">
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
@@ -68,7 +68,7 @@ const Navigation = () => {
               </Link>
             </ul>
             <div className="pt-30">
-              <p className="uppercase tracking-widest text-[#167BFF]">
+              <p className="uppercase tracking-widest text-lg text-[#167BFF] text-center">
                 Let&#39;s Connect
               </p>
               <div>
