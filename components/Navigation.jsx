@@ -68,11 +68,8 @@ const Navigation = () => {
               </Link>
             </ul>
             <div className="pt-30">
-              <p className="uppercase tracking-widest text-lg text-[#167BFF] text-center">
-                Let&#39;s Connect
-              </p>
               <div>
-                <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer hover:scale-105">
+                <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer">
                   <FaLinkedin size={30} />
                 </div>
               </div>
