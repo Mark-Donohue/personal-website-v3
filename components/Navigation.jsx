@@ -46,7 +46,7 @@ const Navigation = () => {
       {/* Side Menu */}
       <div
         className={
-          sideMenu ? "fixed left-0 top-0 w-full h-screen bg-black/50" : ""
+          sideMenu ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/50" : ""
         }
       >
         <div
