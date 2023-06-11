@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply tracking-wide;
+    @apply bg-[#FAF9F6] tracking-wide;
   }
 
   h1,
