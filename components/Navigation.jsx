@@ -12,33 +12,26 @@ const Navigation = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className="fixed w-full h-20 z-[100]">
       {/* Nav Bar */}
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-18">
-        <Image
-          src="/../public/assets/MD_Logo.png"
-          alt="/"
-          width="60"
-          height="60"
-          style={{ width: "auto", height: "auto" }}
-        />
+      <div className="flex items-center w-full h-full px-2 2xl:px-18">
         <div>
           <ul className="hidden md:flex">
-            <li className="ml-10 text-md uppercase">
+            <li className="ml-10 text-md uppercase hover:text-[#167BFF]">
               <Link href="#">About</Link>
             </li>
-            <li className="ml-10 text-md uppercase">
+            <li className="ml-10 text-md uppercase hover:text-[#167BFF]">
               <Link href="#">Experience</Link>
             </li>
-            <li className="ml-10 text-md uppercase">
+            <li className="ml-10 text-md uppercase hover:text-[#167BFF]">
               <Link href="#">Skills</Link>
             </li>
-            <li className="ml-10 text-md uppercase">
+            <li className="ml-10 text-md uppercase hover:text-[#167BFF]">
               <Link href="#">Resume</Link>
             </li>
           </ul>
         </div>
-        <div onClick={handleSideMenu} className="md:hidden cursor-pointer">
+        <div onClick={handleSideMenu} className="md:hidden cursor-pointer pl-2">
           <IoMenu size={50} color="#167BFF" />
         </div>
       </div>
@@ -58,12 +51,6 @@ const Navigation = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/MD_Logo.png"
-                alt="/"
-                width="50"
-                height="50"
-              />
               <div
                 onClick={handleSideMenu}
                 className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer hover:bg-gray-200"
@@ -72,60 +59,29 @@ const Navigation = () => {
               </div>
             </div>
           </div>
-          <div className="py-4 flex flex-col" dir="ltr">
-            <ul className="py-6">
+          <div className="py-4 flex flex-col place-content-center">
+            <ul className="py-14 text-center">
               <Link href="/">
-                <li className="py-2 text-lg uppercase hover:font-bold">
+                <li className="py-2 text-lg uppercase hover:text-[#167BFF]">
                   About
                 </li>
               </Link>
               <Link href="/">
-                <li className="py-2 text-lg uppercase hover:font-bold">
+                <li className="py-2 text-lg uppercase hover:text-[#167BFF]">
                   Experience
                 </li>
               </Link>
               <Link href="/">
-                <li className="py-2 text-lg uppercase hover:font-bold">
+                <li className="py-2 text-lg uppercase hover:text-[#167BFF]">
                   Skills
                 </li>
               </Link>
               <Link href="/">
-                <li className="py-2 text-lg uppercase hover:font-bold">
+                <li className="py-2 text-lg uppercase hover:text-[#167BFF]">
                   Resume
                 </li>
               </Link>
             </ul>
-            <div className="pt-30">
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a
-                  href="https://www.linkedin.com/in/donohuem/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer hover:bg-gray-200">
-                    <SiLinkedin size={30} />
-                  </div>
-                </a>
-                <a
-                  href="https://github.com/Mark-Donohue"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer hover:bg-gray-200">
-                    <SiGithub size={30} />
-                  </div>
-                </a>
-                <a
-                  href="https://wellfound.com/u/mark-donohue-11"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="rounded-full shadow-md shadow-gray-450 p-3 cursor-pointer hover:bg-gray-200">
-                    <SiAngellist size={30} />
-                  </div>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
