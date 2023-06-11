@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IoMenu, IoClose } from "react-icons/io5";
-import { SiLinkedin, SiGithub, SiAngellist } from "react-icons/si";
 
 const Navigation = () => {
   const [sideMenu, setSideMenu] = useState(false);
