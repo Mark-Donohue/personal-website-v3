@@ -1,8 +1,10 @@
 import React from "react";
+import { GrMail } from "react-icons/gr";
+import { SiLinkedin, SiGithub, SiAngellist } from "react-icons/si";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center pt-10">
+    <div className="w-full h-screen text-center pt-16">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 pt-2 flex justify-center items-center">
         <div>
           <h1 className="py-2">
@@ -23,6 +25,20 @@ const Main = () => {
             </a>
             .
           </p>
+          <div className="flex items-center justify-between max-w-[265px] m-auto py-4">
+            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+              <SiLinkedin size={30} />
+            </div>
+            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+              <SiGithub size={30} />
+            </div>
+            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+              <SiAngellist size={30} />
+            </div>
+            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+              <GrMail size={30} />
+            </div>
+          </div>
         </div>
       </div>
     </div>

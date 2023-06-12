@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { IoMenu, IoClose } from "react-icons/io5";
 
@@ -11,7 +10,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 z-[100]">
+    <div className="fixed w-full h-16 z-[100]">
       {/* Nav Bar */}
       <div className="flex items-center w-full h-full px-2 2xl:px-18">
         <div>
@@ -30,8 +29,8 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-        <div onClick={handleSideMenu} className="md:hidden cursor-pointer pl-2">
-          <IoMenu size={50} color="#167BFF" />
+        <div onClick={handleSideMenu} className="md:hidden cursor-pointer pl-1">
+          <IoMenu size={40} color="#167BFF" />
         </div>
       </div>
 
