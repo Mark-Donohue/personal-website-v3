@@ -1,11 +1,13 @@
-import Main from "@/components/Main";
+import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
+import About from "@/components/About";
 
 export default function Home() {
   return (
     <main>
       <Navigation />
-      <Main />
+      <Hero />
+      <About />
     </main>
   );
 }

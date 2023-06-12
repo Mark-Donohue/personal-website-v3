@@ -2,7 +2,7 @@ import React from "react";
 import { GrMail } from "react-icons/gr";
 import { SiLinkedin, SiGithub, SiAngellist } from "react-icons/si";
 
-const Main = () => {
+const Hero = () => {
   return (
     <div className="w-full h-screen text-center pt-16">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 pt-2 flex justify-center items-center">
@@ -45,4 +45,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Hero;
