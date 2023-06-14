@@ -13,7 +13,7 @@ const Hero = () => {
           <h1>I&apos;m a Software Engineer</h1>
           <p className="py-4 max-w-[70%] m-auto">
             I specialize in back-end API development but have experience with
-            front-end technologies as well. Currently, I&apos;m focused on
+            front-end development as well. Currently, I&apos;m focused on
             designing and building efficient and secure APIs at{" "}
             <a
               href="https://www.mediaocean.com/"
@@ -26,16 +26,16 @@ const Hero = () => {
             .
           </p>
           <div className="flex items-center justify-between max-w-[265px] m-auto py-4">
-            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+            <div className="rounded-md shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
               <SiLinkedin size={30} />
             </div>
-            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+            <div className="rounded-md shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
               <SiGithub size={30} />
             </div>
-            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+            <div className="rounded-md shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
               <SiAngellist size={30} />
             </div>
-            <div className="rounded-lg shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
+            <div className="rounded-md shadow-lg shadow-gray-300 p-3 cursor-pointer hover:bg-gray-200">
               <GrMail size={30} />
             </div>
           </div>
